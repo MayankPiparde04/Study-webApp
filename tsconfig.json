@@ -12,6 +12,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "expo-env.d.ts", 
+    "components/HomeHeader.js", "components/ChatItem.js", "app/_layout.js", "app/index.js", "app/(app)/_layout.js", "app/(app)/home.js", "components/Collapsible.js"  ]
 }
