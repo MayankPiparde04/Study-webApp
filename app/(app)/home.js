@@ -28,6 +28,18 @@ const home = () => {
           <Text className='font-semibold text-2xl'>Chapter 4</Text>
         </View>
       </TouchableOpacity>
+      <TouchableOpacity>
+        <View className='h-24 mt-2 mx-2 justify-center items-center border bg-gradient-to-r bg-'
+          style={[styles.lightGreen]}>
+          <Text className='font-semibold text-2xl'>Chapter 5</Text>
+        </View>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <View className='h-24 mt-2 mx-2 justify-center items-center border bg-gradient-to-r bg-'
+          style={[styles.lightOrange]}>
+          <Text className='font-semibold text-2xl'>Chapter 6</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   )
 }
