@@ -2,31 +2,135 @@
     "chapters": [
         {
             "id": 1,
-            "title": "Introduction"
+            "title": "Introduction",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "What is this book about?"
+                },
+                {
+                    "id": 2,
+                    "title": "Why I wrote this book?"
+                },
+                {
+                    "id": 3,
+                    "title": "Who is the author?"
+                },
+                {
+                    "id": 4,
+                    "title": "Table of Contents"
+                }
+            ]
         },
         {
             "id": 2,
-            "title": "Getting Started"
+            "title": "Getting Started",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "Installing the software"
+                },
+                {
+                    "id": 2,
+                    "title": "Setting up your workspace"
+                },
+                {
+                    "id": 3,
+                    "title": "Creating a new project"
+                },
+                {
+                    "id": 4,
+                    "title": "Working with files and folders"
+                }
+            ]
         },
         {
             "id": 3,
-            "title": "Advanced Topics"
+            "title": "Advanced Topics",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "Version control"
+                },
+                {
+                    "id": 2,
+                    "title": "Collaboration tools"
+                },
+                {
+                    "id": 3,
+                    "title": "Testing and debugging"
+                },
+                {
+                    "id": 4,
+                    "title": "Performance optimization"
+                }
+            ]
         },
         {
             "id": 4,
-            "title": "Conclusion"
+            "title": "Conclusion",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "What to expect in this book"
+                },
+                {
+                    "id": 2,
+                    "title": "Acknowledgments"
+                },
+                {
+                    "id": 3,
+                    "title": "About the author"
+                },
+                {
+                    "id": 4,
+                    "title": "License"
+                }
+            ]
         },
         {
             "id": 5,
-            "title": "References"
-        }, 
-        {
-            "id": 6,
-            "title": "Appendices"
+            "title": "References",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "List of software tools"
+                },
+                {
+                    "id": 2,
+                    "title": "List of resources"
+                },
+                {
+                    "id": 3,
+                    "title": "List of books"
+                },
+                {
+                    "id": 4,
+                    "title": "List of online courses"
+                }
+            ]
         },
         {
-            "id": 7,
-            "title": "Glossary"
+            "id": 6,
+            "title": "Appendices",
+            "topic": [
+                {
+                    "id": 1,
+                    "title": "Abbreviations"
+                },
+                {
+                    "id": 2,
+                    "title": "Terms of use"
+                },
+                {
+                    "id": 3,
+                    "title": "Disclaimer"
+                },
+                {
+                    "id": 4,
+                    "title": "About the organization"
+                }
+            ]
         }
     ]
 }
