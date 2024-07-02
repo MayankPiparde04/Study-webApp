@@ -1,13 +1,18 @@
-import { Text, TouchableOpacity, View } from 'react-native';
 import React from 'react';
+import { Text, TouchableOpacity, View } from 'react-native';
+import { useNavigation } from '@react-navigation/native'; // Import useNavigation hook
 
-const TopicItems = ({ item, router, index }) => {
-  // console.log('from topic Items : ', item)
+const TopicItems = ({ item }) => {
+  const navigation = useNavigation();
+
+  const openVideo = () => {
+    navigation.navigate('Video', { item });
+  }
+
   return (
-    <TouchableOpacity onPress={() => router.push(`/topics/${item.id}`)}>
-      <View className='p-4 bg-orange-200 mb-2 rounded'>
-        <Text className='text-lg text-black'>{item}</Text>
-        {/* <Text className='text-sm text-gray-700'>{item.description}</Text> */}
+    <TouchableOpacity onPress={openVideo}>
+      <View className="p-4 bg-orange-300 mb-2 rounded">
+        <Text className="text-2xl text-black">{item.title}</Text>
       </View>
     </TouchableOpacity>
   );
