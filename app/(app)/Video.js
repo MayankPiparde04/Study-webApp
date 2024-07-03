@@ -1,24 +1,21 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import VideoPage from '../../components/VideoPage';
 import { useRoute } from '@react-navigation/native';
-import VideoPlayer from 'react-native-video';
 
-const Video = () => {
+const VideoBox = () => {
   const route = useRoute();
   const { item } = route.params;
 
+  // console.log('from video box: ', item);
+
   return (
-    <View style={{ padding: 16, backgroundColor: '#ADD8E6', borderRadius: 8 }}>
-      <Text style={{ fontSize: 20, color: 'black' }}>{item.title}</Text>
-      <Text>Video Content Goes Here</Text>
-      {/* <VideoPlayer
-        source={require('../../assets/videos/1st_render.mp4')}
-        style={{ width: '100%', height: 300 }}
-        controls={true}
-        resizeMode="contain"
-      /> */}
+    <View sclassName='bg-gray-100 p-4 rounded-lg shadow-lg'>
+      {/* <View className='aspect-w-16 aspect-h-9 bg-teal-400 h-36 flex justify-center items-center'> */}
+        <VideoPage item={item} />
+      {/* </View> */}
     </View>
   );
-}
+};
 
-export default Video;
+export default VideoBox;
